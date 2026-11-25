@@ -1,0 +1,18 @@
+# Record Harbor
+
+> Real estate transaction middleware, powered by Ammonite Intelligence. One secure file from contract to close, with the public record already in it. Public access is not open yet.
+
+Record Harbor is a product of Ammonite Intelligence, Inc. The public website is a coming-soon page. There is no self-serve signup. Contact: support@recordharbor.net.
+
+The four pillars, in one universal data schema, are Secure Document Intelligence, Public Records Access, Private Order Repositories, and Folder Structures. Product previews on the homepage use sample data only.
+
+Do not invent features, coverage counts, pricing, or compliance claims. Public records remain their publishers’.
+
+## Pages
+
+- [Record Harbor home](https://recordharbor.net/): The public coming-soon page.
+- [AGENTS.md](https://recordharbor.net/AGENTS.md): A short briefing for agents and crawlers.
+
+## Optional
+
+- [Contact](mailto:support@recordharbor.net): Write about a partnership or data licensing.
