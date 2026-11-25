@@ -19,7 +19,15 @@
     />
     <meta property="og:url" content="https://recordharbor.net/" />
     <meta property="og:image" content="https://recordharbor.net/brand/PRN-Heron.png" />
+    <meta property="og:image:width" content="1254" />
+    <meta property="og:image:height" content="1254" />
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Record Harbor — Complete your next transaction." />
+    <meta
+      name="twitter:description"
+      content="Record Harbor simplifies the real estate transaction from contract to close: one secure file for buyers, sellers, agents, attorneys, lenders, title, developers and surveyors, with the public record already translated into it."
+    />
+    <meta name="twitter:image" content="https://recordharbor.net/brand/PRN-Heron.png" />
     <link rel="icon" type="image/png" href="/brand/PRN-Heron.png" />
     <link rel="apple-touch-icon" href="/brand/PRN-Heron.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,13 +42,43 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Record Harbor",
-        "legalName": "Ammonite Intelligence, Inc.",
-        "url": "https://recordharbor.net/",
-        "logo": "https://recordharbor.net/brand/PRN-Heron.png",
-        "email": "support@recordharbor.net",
-        "description": "The middleware for real estate transactions."
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://recordharbor.net/#organization",
+            "name": "Ammonite Intelligence, Inc.",
+            "legalName": "Ammonite Intelligence, Inc.",
+            "url": "https://recordharbor.net/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://recordharbor.net/brand/PRN-Heron.png"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "support@recordharbor.net",
+              "contactType": "customer support"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://recordharbor.net/#website",
+            "name": "Record Harbor",
+            "url": "https://recordharbor.net/",
+            "publisher": {
+              "@id": "https://recordharbor.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://recordharbor.net/#webpage",
+            "url": "https://recordharbor.net/",
+            "name": "Record Harbor — Complete your next transaction.",
+            "description": "Record Harbor simplifies the real estate transaction from contract to close: one secure file for buyers, sellers, agents, attorneys, lenders, title, developers and surveyors, with the public record already translated into it. By Ammonite Intelligence, Inc. Opening soon.",
+            "isPartOf": {
+              "@id": "https://recordharbor.net/#website"
+            }
+          }
+        ]
       }
     </script>
   </head>

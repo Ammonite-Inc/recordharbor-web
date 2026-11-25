@@ -39,3 +39,7 @@ There is no on-site form and no self-serve signup today. People can write to sup
 - This file: https://recordharbor.net/AGENTS.md
 - LLM summary: https://recordharbor.net/llms.txt
 - The public site may be indexed. Do not invent features, coverage counts, pricing, or compliance claims. Do not claim SOC 2 or that the product is generally available.
+
+## Indexing standard
+
+Every public page should be indexable. Each page ships with schema.org JSON-LD (a WebPage that is part of the Record Harbor WebSite, published by Ammonite Intelligence, Inc.), a canonical URL, a meta description, Open Graph tags, a sitemap entry, and a link to /llms.txt. Do not invent features, coverage counts, pricing, or compliance claims in that markup.
